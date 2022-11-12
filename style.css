@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box; 
+}
+.container {
+  display:inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto
+  auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto
+  auto auto auto auto auto auto auto;
+  column-gap: 1px;
+}
+.content {
+  background-color: darkgray;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;  
+}
