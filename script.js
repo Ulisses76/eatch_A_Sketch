@@ -15,7 +15,7 @@
       const content = document.createElement('div');
       const container = document.querySelector('.container'); 
       content.classList.add(`content`)
-      content.style.cssText=`width:${960/number}px; height:${960/number}px;`
+      content.style.cssText=`width:${760/number}px; height:${760/number}px;`
       container.appendChild(content);
     }
   const container = document.querySelector('.container'); 
@@ -46,6 +46,6 @@
   const boxArray = document.querySelectorAll('.container');
   boxArray.forEach ((box) => {
     box.addEventListener('mouseover',mouseOver);
-    box.addEventListener('mouseout',mouseOut);
+    // box.addEventListener('mouseout',mouseOut);
   })
   

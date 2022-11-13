@@ -7,7 +7,7 @@
   /* column-gap: 1px;
   row-gap: 1px; */
   
-  transition: all 1s;
+  /* transition: all 1s; */
 }
 .content {
   background-color: darkgray;
@@ -15,16 +15,16 @@
   /* width: 60px;
   height: 60px;   */
   box-shadow: 0 0 chocolate;
-  transition-duration: 0.2s;
+  /* transition-duration: 0.2s; */
 }
 .moving {
   background-color: rgb(239, 174, 10);
-  border: 2px solid rgb(76, 73, 73);
-  border-radius: 10px;
+  /* border: 2px solid rgb(76, 73, 73); */
+  /* border-radius: 10px; */
   /* width: 60px;
   height: 60px;   */
   box-shadow: 0 0 violet;
-  transform:scale(1.1);
+  /* transform:scale(1.1); */
 }
 .butt{
   display: block;
